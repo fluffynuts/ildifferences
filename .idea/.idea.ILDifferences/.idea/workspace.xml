@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0c83dcb-0956-4730-b3a2-d0f65fad85b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/2B6/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ILDifferences/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ILDifferences/ILDifferences.csproj" />
+        <option value="$PROJECT_DIR$/ILDifferences/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XIlfaDpYYDhXS1VvnL97trHnJs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="RiderCodeAnnotations" />
+  </component>
+  <component name="RunManager" selected=".NET Project.ILDifferences (2.1)">
+    <configuration name="ILDifferences (2.1)" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ILDifferences/bin/Debug/netcoreapp2.1/ILDifferences.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ILDifferences/bin/Debug/netcoreapp2.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ILDifferences/ILDifferences.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ILDifferences (3.1)" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ILDifferences/bin/Debug/netcoreapp3.1/ILDifferences.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ILDifferences/bin/Debug/netcoreapp3.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ILDifferences/ILDifferences.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.ILDifferences (3.1)" />
+      <item itemvalue=".NET Project.ILDifferences (2.1)" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0c83dcb-0956-4730-b3a2-d0f65fad85b1" name="Default Changelist" comment="" />
+      <created>1580741593173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580741593173</updated>
+      <workItem from="1580741594947" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="2334" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580741915065">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741915065" />
+    <state width="1899" height="439" key="GridCell.Tab.0.bottom" timestamp="1580741918719">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.0.bottom/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918719" />
+    <state width="1899" height="439" key="GridCell.Tab.0.center" timestamp="1580741918719">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.0.center/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918719" />
+    <state width="1899" height="439" key="GridCell.Tab.0.left" timestamp="1580741918719">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.0.left/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918719" />
+    <state width="1899" height="439" key="GridCell.Tab.0.right" timestamp="1580741918719">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.0.right/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918719" />
+    <state width="1899" height="439" key="GridCell.Tab.1.bottom" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.1.bottom/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.1.center" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.1.center/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.1.left" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.1.left/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.1.right" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.1.right/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.2.bottom" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.2.bottom/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.2.center" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.2.center/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.2.left" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.2.left/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.2.right" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.2.right/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.3.bottom" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.3.bottom/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.3.center" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.3.center/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.3.left" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.3.left/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.3.right" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.3.right/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.4.bottom" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.4.bottom/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.4.center" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.4.center/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.4.left" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.4.left/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state width="1899" height="439" key="GridCell.Tab.4.right" timestamp="1580741918720">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="439" key="GridCell.Tab.4.right/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741918720" />
+    <state x="2543" y="235" key="search.everywhere.popup" timestamp="1580741718850">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="235" key="search.everywhere.popup/-1920.0.1856.1080/0.0.1856.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580741718850" />
+  </component>
+</project>
