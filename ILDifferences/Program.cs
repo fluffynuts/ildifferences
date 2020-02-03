@@ -35,8 +35,20 @@ namespace ILDifferences
     {
         static void Main(string[] args)
         {
+            TryDo(ViaReflection, "When working in 'user-space' via reflection, interface MethodInfo's are cool");
             TryDo(() => Demonstrate(typeof(Shim)), "When field type is concrete");
-            Demonstrate(typeof(IShim));
+            TryDo(() => Demonstrate(typeof(IShim)), "Whenm field type is interface");
+        }
+
+        private static void ViaReflection()
+        {
+            var someShim = new Shim();
+            var interfaceType = typeof(IShim);
+            var interfaceSetter = interfaceType.GetMethod(nameof(IShim.SetPropertyValue));
+            var interfaceGetter = interfaceType.GetMethod(nameof(IShim.GetPropertyValue));
+            interfaceSetter.Invoke(someShim, new object[] { "id", 42 });
+            var result = (int) (interfaceGetter.Invoke(someShim, new object[] { "id" }));
+            Console.WriteLine($"Stored and retrieved: {result}");
         }
 
         private static void TryDo(Action toRun, string label)
