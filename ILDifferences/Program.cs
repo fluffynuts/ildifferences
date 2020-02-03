@@ -37,7 +37,7 @@ namespace ILDifferences
         {
             TryDo(ViaReflection, "When working in 'user-space' via reflection, interface MethodInfo's are cool");
             TryDo(() => Demonstrate(typeof(Shim)), "When field type is concrete");
-            TryDo(() => Demonstrate(typeof(IShim)), "Whenm field type is interface");
+            TryDo(() => Demonstrate(typeof(IShim)), "When field type is interface");
         }
 
         private static void ViaReflection()
@@ -61,6 +61,12 @@ namespace ILDifferences
             catch (Exception ex)
             {
                 Console.WriteLine($"Fails: {ex.Message}");
+                var inner = ex.InnerException;
+                while (inner != null)
+                {
+                    Console.WriteLine($"Inner: {inner.Message}");
+                    inner = inner.InnerException;
+                }
             }
         }
 
@@ -100,7 +106,15 @@ namespace ILDifferences
             il.Emit(OpCodes.Ldfld, field);
             il.Emit(OpCodes.Ldstr, "_id_");
             il.Emit(OpCodes.Ldloc, boxed);
-            il.Emit(OpCodes.Call, shimSetter);
+            if (fieldType.IsInterface)
+            {
+                il.Emit(OpCodes.Callvirt, shimSetter);
+            }
+            else
+            {
+                il.Emit(OpCodes.Call, shimSetter);
+            }
+
             il.Emit(OpCodes.Ret);
 
             // - end as per pb
@@ -120,7 +134,15 @@ namespace ILDifferences
             il.Emit(OpCodes.Ldarg_0); // this
             il.Emit(OpCodes.Ldfld, field);
             il.Emit(OpCodes.Ldstr, "_id_");
-            il.Emit(OpCodes.Call, shimGetter);
+            if (fieldType.IsInterface)
+            {
+                il.Emit(OpCodes.Callvirt, shimGetter);
+            }
+            else
+            {
+                il.Emit(OpCodes.Call, shimGetter);
+            }
+
             il.Emit(OpCodes.Ret);
 
             var type = typeBuilder.CreateTypeInfo();
